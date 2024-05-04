@@ -14,6 +14,7 @@ function newItem(){
        } else {
          let list = $('#list');
          list.append(li);
+         $('#input').val('');
        }
     
      //double click to cross out item
